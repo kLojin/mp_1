@@ -43,12 +43,8 @@
     margin: auto; */
   }
 
-/* .pgradient::after {
-    display: block;
-    position: relative;
-    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, #ffffff 100%);
-    margin-top: -150px;
-    height: 150px;
-    width: 100%;
-    content: '';
-  } */
+/******************************************************* under_carousel */
+.bg_col {
+    background-position: center;
+    background-size: cover;
+}
