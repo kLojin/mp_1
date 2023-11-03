@@ -200,6 +200,10 @@ hr {
   background-color: #ffffff;
 }
 
+.visz {
+  font-family: 'Dancing Script', cursive;
+}
+
 @media (max-width: 767px) {
   .in_sal {
     font-size: .8em;
@@ -470,23 +474,17 @@ hr {
     color: #0d213c;
   }
 
-  .menus {
-    /* background-color: #353535; */
-  }
-
   .f_list {
     text-decoration: none;
   }
 
   .i_list {
-    transition: .35s;
+    transition: .1s;
   }
 
   .i_list:hover {
     color: #fffb00 !important;
     font-weight: 700;
-    width: fit-content;
-    padding: .3rem;
   }
 
   .modal_body ,ul, li {
@@ -517,6 +515,13 @@ hr {
     color: #006eff !important;
     width: fit-content;
     padding: 0 .5rem;
+  }
+
+  .menus {
+    display: flex;
+    align-items: center;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   @media (max-width: 528px) {
