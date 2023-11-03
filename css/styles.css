@@ -47,14 +47,14 @@ body, html{
 }
 /************************************************ HEADER *********************/
 .hdiv {
-    padding-top: 1rem;
-    height: 2rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    /* padding-top: 1rem; */
+    margin-top: .5rem;
+    margin-bottom: -.5rem ;
+    /* align-items: center;
+    justify-content: space-between; */
 }
 
-.idiv {
+/* .idiv {
     display: flex;
     gap: .2rem;
     color: #081c36f8;
@@ -64,18 +64,30 @@ body, html{
     display: flex;
     gap: .8rem;
     margin-left: auto;
-}
+} */
 
 .ph {
     font-weight: 400;
     font-size: .8rem;
+    padding-left: .5em;
 }
 
-@media (max-width: 428px) {
+/* @media (max-width: 615px) {
   .ph {
     font-size: .7em;
   }
-  
+} */
+
+/* @media (max-width: 552px) {
+  .ph {
+    font-size: .6em;
+  }
+} */
+
+@media (max-width: 767px) {
+  .idiv {
+    text-align: center;
+  }
 }
 
 /************************************************ navbar/MAIN/first_section *********************/
@@ -430,19 +442,21 @@ hr {
     bottom: 10px;
     right: 10px;
     z-index: 99;
-    font-size: .8em;
+    font-size: 1.7em;
     border: none;
     outline: none;
-    background-color: dodgerblue;
+    background-color: rgba(30, 143, 255, 0.604);
     color: white;
     cursor: pointer;
-    padding: .8em;
+    padding: 0 .5em;
     border-radius: 4px;
+    transition: .35s;
   }
   
   #myBtn:hover {
     background-color: #ffffff;
     color: #355891;
+    font-weight: 700;
   }
 
   /******************************************************************* footer *************************************/
@@ -456,8 +470,23 @@ hr {
     color: #0d213c;
   }
 
+  .menus {
+    /* background-color: #353535; */
+  }
+
   .f_list {
     text-decoration: none;
+  }
+
+  .i_list {
+    transition: .35s;
+  }
+
+  .i_list:hover {
+    color: #fffb00 !important;
+    font-weight: 700;
+    width: fit-content;
+    padding: .3rem;
   }
 
   .modal_body ,ul, li {
@@ -471,6 +500,24 @@ hr {
     list-style-position: inside;
   }
 
+  .logz {
+    transition: .35s;
+  }
+  
+  .logz:hover {
+    cursor: pointer;
+    /* padding: .5rem; */
+  }
+
+  .ppolicy {
+    transition: .2s;
+  }
+
+  .ppolicy:hover {
+    color: #006eff !important;
+    width: fit-content;
+    padding: 0 .5rem;
+  }
 
   @media (max-width: 528px) {
     .ft {
