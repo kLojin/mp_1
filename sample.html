@@ -1,38 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <title>Document</title>
+  <title>Carousel</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<style>
+
+.carousel  /*slider */
+{
+	position: relative;
+}
+.carousel .carousel-indicators	/* indicator wrapper*/
+{
+	position: absolute;
+	bottom: 0;
+	left:0px;
+	width: 100%;
+  	margin: 0;
+  	left: 0;
+ 	right: 0;
+ 	width: 100%;
+ 	display: flex;	/* this is for indicators  */
+}
+#headcarousel_container .carousel-indicators li /* indicators*/
+{
+	flex-grow: 1;  /* make all indicator li similarly stretched */
+	height: 40px;
+	border-radius: 2px;	
+}
+
+#headcarousel_container .carousel-indicators li.active
+{
+	background-color:rgba(255, 255, 255, 0.275) ;/* changes indicators color when it is active*/ 
+}
+.carousel .carousel-inner .item img
+{
+	width: 100%;
+	height: 100vh;
+	object-fit: cover; 
+}
+
+</style>
+
 </head>
 <body>
-    
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-    Launch demo modal
-  </button>
-  
-  <!-- Modal -->
-  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          ...
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Save changes</button>
-        </div>
-      </div>
-    </div>
-  </div>
-
+ 			<!--slider -->
+			<div  class="container-fluid" id="headcarousel_container" style="padding: 0;">
+				<div id="headcarouselid" class="carousel slide" data-ride="carousel">
+					<!-- indicators -->
+					<ul class="carousel-indicators">
+						<li class="active" data-target="#headcarouselid" data-slide-to="0"></li>
+						<li class="" data-target="#headcarouselid" data-slide-to="1"></li>
+						<li class="" data-target="#headcarouselid" data-slide-to="2"></li>
+					</ul>
+					<!-- Wrapper for slides -->
+					<div class="carousel-inner">
+						<div class="item active">
+							<img src="images/for_use/images/min.webp" title="slidepicture" alt="slidepicture">
+						</div>
+						<div class="item">
+							<img src="images/for_use/images/min2.webp" title="slidepicture" alt="slidepicture">
+						</div>
+						<div class="item">
+							<img src="images/for_use/images/min3.webp" title="slidepicture" alt="slidepicture">
+						</div>						
+					</div>
+					<!-- Left and right controls -->
+					<a class="carousel-control left" href="#headcarouselid" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left"></span>
+					</a>
+					<a class="carousel-control right" href="#headcarouselid" data-slide="next">
+						<span class="glyphicon glyphicon-chevron-right"></span>
+					</a>						
+				</div>
+			</div>
 
 </body>
 </html>
