@@ -84,11 +84,11 @@ body, html{
   }
 } */
 
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
   .idiv {
     text-align: center;
   }
-}
+} */
 
 /************************************************ navbar/MAIN/first_section *********************/
 .first_section {

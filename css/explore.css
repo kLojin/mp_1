@@ -1,0 +1,31 @@
+.res {
+    font-family: 'Dancing Script', cursive;
+}
+
+.unw {
+    font-size: .8em;
+}
+
+.crd {
+    width: 15rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.crd_main {
+    gap: 2rem;
+}
+
+img {
+    border-radius: .3rem .3rem 0 0;
+    width: 15rem;
+}
+
+.p_text {
+    font-size: .8em;
+}
+
+/**************************************************************** b_section */
+
+.b_section {
+    background-color: rgba(4, 19, 79, 0.132)
+}
