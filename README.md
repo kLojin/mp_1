@@ -13,7 +13,7 @@
 ![alt text](https://github.com/kLojin/mp_1/blob/main/sitemap.png?raw=true)
 
 
-## Wireframe LFD & HFD Link: https://www.figma.com/proto/JI7PB9cpaNmus3kCG5S05q/Untitled?node-id=1-2&mode=design&t=E9XB7OzRQI1hOlND-1
+## Wireframe LFD & HFD Link: https://www.figma.com/proto/b6KjsPOqyoLGWKsNgOPD3a/Untitled?type=design&node-id=1-2&t=0HY77sn2sWICCFDo-1&scaling=min-zoom&page-id=0%3A1&mode=design
 
 ## Github Page Live Link: https://klojin.github.io/mp_1/
 
