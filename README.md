@@ -31,7 +31,7 @@
 
 
 
-![alt text](https://github.com/kLojin/mp_1/blob/main/sitemap.png?raw=true)
+![alt text](https://github.com/kLojin/mp_1/blob/main/images/for_use/images/tests/sitemap.PNG?raw=true)
 
 
 ## Wireframe LFD & HFD Link: https://www.figma.com/proto/b6KjsPOqyoLGWKsNgOPD3a/Untitled?type=design&node-id=1-2&t=0HY77sn2sWICCFDo-1&scaling=min-zoom&page-id=0%3A1&mode=design
@@ -66,19 +66,19 @@
 ### Screenshot of HTML Checker [Link to W3C Markup Validation Service](https://validator.w3.org/)
 
 Result [Link](https://validator.w3.org/nu/?doc=https%3A%2F%2Fklojin.github.io%2Fmp_1%2F)
-![alt text](https://github.com/kLojin/mp_1/blob/main/checker.png?raw=true)
+![alt text](https://github.com/kLojin/mp_1/blob/main/images/for_use/images/tests/checker.png?raw=true)
 
 ### Screenshots of the PageSpeed Insights for Desktop & Mobile [Link to PageSpeed Insights](https://pagespeed.web.dev/)
 
 > --- Desktop ---
 
 Result [Link](https://pagespeed.web.dev/analysis/https-klojin-github-io-mp_1/2a20sd8ucv?form_factor=desktop)
-![alt text](https://github.com/kLojin/mp_1/blob/main/desktop.png?raw=true)
+![alt text](https://github.com/kLojin/mp_1/blob/main/images/for_use/images/tests/desktop.png?raw=true)
 
 > --- Mobile ---
 
 Result [Link](https://pagespeed.web.dev/analysis/https-klojin-github-io-mp_1/2a20sd8ucv?form_factor=mobile)
-![alt text](https://github.com/kLojin/mp_1/blob/main/mobile.png?raw=true)
+![alt text](https://github.com/kLojin/mp_1/blob/main/images/for_use/images/tests/mobile.png?raw=true)
 
 ### What are the Additional Post-release features
 
