@@ -10,7 +10,7 @@
 
 ## Sitemap
 
-![alt text](https://github.com/kLojin/project-documentation/blob/main/sitemap.png?raw=true)
+![alt text]([https://github.com/kLojin/project-documentation/blob/main/sitemap.png?raw=true](https://github.com/kLojin/mp_1/blob/main/sitemap.png?raw=true))
 
 
 ## Wireframe LFD & HFD Link: https://www.figma.com/proto/JI7PB9cpaNmus3kCG5S05q/Untitled?node-id=1-2&mode=design&t=E9XB7OzRQI1hOlND-1
