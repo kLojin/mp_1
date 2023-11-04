@@ -34,7 +34,7 @@
 ![alt text](https://github.com/kLojin/mp_1/blob/main/images/for_use/images/tests/sitemap.PNG?raw=true)
 
 
-## Wireframe LFD & HFD Link: https://www.figma.com/proto/b6KjsPOqyoLGWKsNgOPD3a/Untitled?type=design&node-id=1-2&t=0HY77sn2sWICCFDo-1&scaling=min-zoom&page-id=0%3A1&mode=design
+## Wireframe LFD & HFD [Figma Link](https://www.figma.com/proto/b6KjsPOqyoLGWKsNgOPD3a/Untitled?type=design&node-id=1-2&t=0HY77sn2sWICCFDo-1&scaling=min-zoom&page-id=0%3A1&mode=design)
 
 ## Github Page Live Link: https://klojin.github.io/mp_1/
 
