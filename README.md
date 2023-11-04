@@ -61,16 +61,20 @@
 
 ## Testing Done:
 
-### Screenshot of HTML Checker (https://validator.w3.org/)
+### Screenshot of HTML Checker [Link to W3C Markup Validation Service](https://validator.w3.org/)
 
 ![alt text](https://github.com/kLojin/mp_1/blob/main/checker.png?raw=true)
 
-### Screenshots of the PageSpeed Insights for Desktop & Mobile (https://pagespeed.web.dev/)
+### Screenshots of the PageSpeed Insights for Desktop & Mobile [Link to PageSpeed Insights](https://pagespeed.web.dev/)
 
 > --- Desktop ---
+
+https://pagespeed.web.dev/analysis/https-klojin-github-io-mp_1/2a20sd8ucv?form_factor=desktop
 ![alt text](https://github.com/kLojin/mp_1/blob/main/desktop.png?raw=true)
 
 > --- Mobile ---
+
+https://pagespeed.web.dev/analysis/https-klojin-github-io-mp_1/2a20sd8ucv?form_factor=mobile
 ![alt text](https://github.com/kLojin/mp_1/blob/main/mobile.png?raw=true)
 
 ### What are the Additional Post-release features
