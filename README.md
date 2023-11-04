@@ -6,7 +6,9 @@
 
 ## Background of Project:
 
->  Simple site to demonstrate my mini project 1 Website.
+### Problem Overview:
+
+>Salcedo, Eastern Samar, offers a wealth of natural wonders, historical sites, and vibrant culture, but it struggles to attract the attention of tourists due to limited online visibility. Travelers often find it challenging to discover and explore the unique experiences this region has to offer. This situation affects the local tourism industry and hinders potential visitors from enjoying Salcedo's offerings.
 
 ## Sitemap
 
@@ -27,40 +29,38 @@
 
 ## Technologies and Version
 1. HTML, CSS, Bootstrap 5.3
-2. Animate.css
-3. AOS
+2. AOS
+3. UIVERSE.IO
 
 ## Contributors:
 
-1. Friend 1: Desktop Testing
-2. Friend 2: Mobile Testing
+1. Mariel: Desktop Testing
+2. Razel: Mobile Testing
 
 ## Current Features Implemented
 
 1. Responsive Design with the use of Media Queries
-2. Bootstrap Navigation
-3. Bootstrap buttons for toggling navigation
+2. Bootstrap Navigation and button
 
 ## Testing Done:
 
 ### Screenshot of HTML Checker (https://validator.w3.org/)
 
-![alt text](https://github.com/kLojin/project-documentation/blob/main/nu%20html%20checker.PNG?raw=true)
+![alt text](https://github.com/kLojin/mp_1/blob/main/checker.png?raw=true)
 
-### Screenshots of the PageSpeed Insights for Desktop & Mobile
+### Screenshots of the PageSpeed Insights for Desktop & Mobile (https://pagespeed.web.dev/)
 
 > --- Desktop ---
-![alt text](https://github.com/kLojin/project-documentation/blob/main/desktop.PNG?raw=true)
+![alt text](https://github.com/kLojin/mp_1/blob/main/desktop.png?raw=true)
 
 > --- Mobile ---
-![alt text](https://github.com/kLojin/project-documentation/blob/main/mobile.PNG?raw=true)
+![alt text](https://github.com/kLojin/mp_1/blob/main/mobile.png?raw=true)
 
 ### What are the Additional Post-release features
 
 1. Complete the missing details and links on the website
-2. Add a Search bar on the Landing page
-3. Add Facebook post links using HTML iframe Syntax
-4. Add image slideshows
+2. Add Facebook post links
+3. Improve Page Speed Insights & on the HTML Checker
 
 
 
