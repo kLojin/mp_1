@@ -49,6 +49,7 @@
 1. HTML, CSS, Bootstrap 5.3
 2. AOS
 3. UIVERSE.IO
+4. Google Fonts
 
 ## Contributors:
 
