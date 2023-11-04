@@ -70,12 +70,12 @@
 
 > --- Desktop ---
 
-https://pagespeed.web.dev/analysis/https-klojin-github-io-mp_1/2a20sd8ucv?form_factor=desktop
+Result [Link](https://pagespeed.web.dev/analysis/https-klojin-github-io-mp_1/2a20sd8ucv?form_factor=desktop)
 ![alt text](https://github.com/kLojin/mp_1/blob/main/desktop.png?raw=true)
 
 > --- Mobile ---
 
-https://pagespeed.web.dev/analysis/https-klojin-github-io-mp_1/2a20sd8ucv?form_factor=mobile
+Result [Link](https://pagespeed.web.dev/analysis/https-klojin-github-io-mp_1/2a20sd8ucv?form_factor=mobile)
 ![alt text](https://github.com/kLojin/mp_1/blob/main/mobile.png?raw=true)
 
 ### What are the Additional Post-release features
