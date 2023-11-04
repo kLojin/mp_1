@@ -8,11 +8,11 @@
 
 ### Problem Overview:
 
->Salcedo, Eastern Samar, offers a wealth of natural wonders, historical sites, and vibrant culture, but it struggles to attract the attention of tourists due to limited online visibility. Travelers often find it challenging to discover and explore the unique experiences this region has to offer. This situation affects the local tourism industry and hinders potential visitors from enjoying Salcedo's offerings.
+>Salcedo, Eastern Samar, offers a wealth of natural wonders, historical sites, and vibrant culture, but it struggles to attract the attention of tourists due to limited online visibility.
 
 ### Proposed Solution:
 
->I propose the development of "Discover Salcedo," a comprehensive website that promotes tourism in Salcedo, Eastern Samar. This platform will serve as a digital gateway for tourists, offering detailed information about attractions, accommodations, local events, and more. Key features will include interactive maps, user-generated content, and a community forum for travelers.
+>I propose the development of "Discover Salcedo," a comprehensive website that promotes tourism in Salcedo, Eastern Samar.
 
 ### Project Objectives:
 
@@ -25,7 +25,7 @@
 
 ### Target Users/Audience:
 
->Our target audience includes travelers, both domestic and international, who are seeking unique and authentic experiences in Salcedo, Eastern Samar. "Discover Salcedo" will cater to those who wish to explore the natural wonders, cultural heritage, and warm community of this region. It also serves as a valuable resource for locals and businesses looking to promote their services to a wider audience, ultimately boosting tourism in Salcedo.
+>Our target audience includes travelers, both domestic and international, who are seeking unique and authentic experiences in Salcedo, Eastern Samar. "Discover Salcedo" will cater to those who wish to explore the natural wonders, cultural heritage, and warm community of this region.
 ---
 ## Sitemap
 
