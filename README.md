@@ -27,9 +27,9 @@
 
 >Our target audience includes travelers, both domestic and international, who are seeking unique and authentic experiences in Salcedo, Eastern Samar. "Discover Salcedo" will cater to those who wish to explore the natural wonders, cultural heritage, and warm community of this region.
 ---
-## Sitemap
+## Sitemap [Link](https://www.figma.com/proto/JI7PB9cpaNmus3kCG5S05q/Untitled?node-id=1-2&mode=design&t=hzBq47G4QPWycaxP-1)
 
-[**Link to Sitemap**](https://www.figma.com/proto/JI7PB9cpaNmus3kCG5S05q/Untitled?node-id=1-2&mode=design&t=hzBq47G4QPWycaxP-1)
+
 
 ![alt text](https://github.com/kLojin/mp_1/blob/main/sitemap.png?raw=true)
 
