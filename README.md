@@ -46,20 +46,22 @@
 2. Share what I have learned so far
 
 ## Technologies and Version
-1. HTML, CSS, Bootstrap 5.3
-2. AOS
-3. UIVERSE.IO
-4. Google Fonts
+```
+- HTML, CSS, Bootstrap 5.3
+- Google Fonts
+- AOS
+- UIVERSE.IO
+```
 
 ## Contributors:
 
-1. Mariel: Desktop Testing
-2. Razel: Mobile Testing
+* **Mariel**: Desktop Testing
+* **Razel**: Mobile Testing
 
 ## Current Features Implemented
 
-1. Responsive Design with the use of Media Queries
-2. Bootstrap Navigation and button
+* Responsive Design with the use of Media Queries
+* Bootstrap Navigation and button
 
 ## Testing Done:
 
