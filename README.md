@@ -72,12 +72,12 @@ Result [Link](https://validator.w3.org/nu/?doc=https%3A%2F%2Fklojin.github.io%2F
 
 ### Screenshots of the PageSpeed Insights for Desktop & Mobile [Link to PageSpeed Insights](https://pagespeed.web.dev/)
 
-> --- Desktop ---
+> <!------- DESKTOP -------->
 
 Result [Link](https://pagespeed.web.dev/analysis/https-klojin-github-io-mp_1/2a20sd8ucv?form_factor=desktop)
 ![alt text](https://github.com/kLojin/mp_1/blob/main/images/for_use/images/tests/desktop.png?raw=true)
 
-> --- Mobile ---
+> <!------- MOBILE -------->
 
 Result [Link](https://pagespeed.web.dev/analysis/https-klojin-github-io-mp_1/2a20sd8ucv?form_factor=mobile)
 ![alt text](https://github.com/kLojin/mp_1/blob/main/images/for_use/images/tests/mobile.png?raw=true)
