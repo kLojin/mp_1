@@ -38,11 +38,10 @@
 
 ## Github Repository Link: https://github.com/kLojin/mp_1
 
-## Project Goals / Services provided by the application:
+## Project Goals:
 
 1. Create a simple tourism website
-2. Share some of the projects that we've created
-3. Share what I have learned so far
+2. Share what I have learned so far
 
 ## Technologies and Version
 1. HTML, CSS, Bootstrap 5.3
