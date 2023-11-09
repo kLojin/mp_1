@@ -96,7 +96,7 @@
   .separator::after {
     content: '';
     flex: 1;
-    border-bottom: 1px solid #ffffff;
+    border-bottom: 1px solid #000000;
   }
   
   .separator:not(:empty)::before {
@@ -113,37 +113,41 @@
   }
   /************ cont. */
 
-  .h_crd {
-    opacity: 1;
-    height: 10rem;
-    width: 8rem;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  .f_cards {
+    background-color: #fff;
   }
 
-  .c_bod {
-    background-position: center;
-    background-size: cover;
-    border-radius: .5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: .35s;
+  .hover-container {
+    position: relative;
+    display: inline-block;
   }
 
-  .c_bod:hover {
-    opacity: .75;
+  .hover-container img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .hover-container .text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    color: #123243; /* Set text color */
+    text-align: center;
+    transition: opacity 0.3s ease-in-out;
     cursor: pointer;
-    color: #000 !important;
-  }
-  
-  .in_div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: .7rem;
   }
 
-.sec_f {
-    background-position: center;
-    background-size: cover;
-}
+  .hover-container:hover img {
+    opacity: 0;
+  }
+
+  .hover-container:hover .text-overlay {
+    opacity: 1;
+  }
+
+  .img_fet {
+    height: 250px;
+    width: 300px;
+  }
