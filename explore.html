@@ -20,6 +20,7 @@
         <!----------------------------------------------------------- CSS ---------------------->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/explore.css">
     <title>Main Page</title>
     
 </head>
@@ -69,10 +70,10 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active fs-6" aria-current="page" id="home" href="index.html">DISCOVER SALCEDO</a>
+              <a class="nav-link" href="index.html">DISCOVER SALCEDO</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="explore.html">EXPLORE SALCEDO</a>
+              <a class="nav-link active fs-6" aria-current="page" id="home" href="#home">EXPLORE SALCEDO</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">PLAN YOUR VISIT</a>
@@ -94,25 +95,20 @@
             </p>
           </div>
           <div>
-            <a class="btn_a" href="#about"><button class="btn_about mt-4" type="button">About Salcedo</button></a>
+            <a class="btn_a" href="#explore"><button class="btn_about mt-4" type="button">Explore Salcedo</button></a>
           </div>
         </div>
       </div>
     </section>
 
 <!----------------------------------------------------------- SECOND_SECTION ---------------------->
-    <section class="second_section" id="about">
+    <section id="explore">
+      <div>
+        <h1 class="display-4 fw-bold res text-center pt-5">Resorts:</h1>
+        <p class="lh-lg unw text-center">Unwind in luxurious resorts that offer tranquility and comfort, allowing you to escape from the hustle and bustle of city life.</p>
+      </div>
       <div class="container-fluid">
-        <div class="row row-cols-md-1 row-cols-1 row-cols-lg-2">
-            <div class="col-lg-3 col-md-12 col-sm-12 px-5 align-self-center bg-light py-5">
-                <h1 class="display-6 res">Resorts:</h1>
-                <p class="lh-lg unw">Unwind in luxurious resorts that offer tranquility and comfort, allowing you to escape from the hustle and bustle of city life.</p>
-                <div class="d-flex justify-content-start">
-                    <a class="btn_a" href="#about"><button class="btn_about mt-4" type="button">more</button></a>
-                </div>
-            </div>
-            <div class="col-lg-9 col-md-12 col-sm-12 d-flex justify-content-center">
-                <div class="row row-cols-lg-3 row-cols-md-2 row-cols-1 crd_main">
+        <div class="row row-cols-md-2 row-cols-1 row-cols-lg-4 r_resorts">
                     <div class="col px-3">
                     <div class="card my-4 px-0 crd">
                         <div class="card-header p-0 m-0 crd_in" style="background-image: linear-gradient(rgba(26, 73, 103, 0.58), rgba(26, 73, 103, 0)), url('images/for_use/images/cards/loksoon_br.webp');">
@@ -141,7 +137,7 @@
                         </div>
                     </div>
                     </div>
-                    <div class="col-md-12 px-3">
+                    <div class="col px-3">
                     <div class="card my-4 px-0 crd">
                         <div class="card-header p-0 m-0 crd_in" style="background-image: linear-gradient(rgb(26, 73, 103), rgba(26, 73, 103, 0)), url('images/for_use/images/cards/DJ.webp');">
                         <p class="py-5 fw-semibold text-center text-light">Diane & Joy<br>Beach Resort</p>
@@ -155,77 +151,125 @@
                         </div>
                     </div>
                     </div>
-                </div>
-            </div>
+                    <div class="col px-3">
+                      <div class="card my-4 px-0 crd">
+                          <div class="card-header p-0 m-0 crd_in" style="background-image: linear-gradient(rgb(26, 73, 103), rgba(26, 73, 103, 0)), url('images/for_use/images/cards/DJ.webp');">
+                          <p class="py-5 fw-semibold text-center text-light">Diane & Joy<br>Beach Resort</p>
+                          </div>
+                          <div class="card-body lh-sm p_text">
+                          <p><strong>Services Offered:</strong><br>
+                          Beachfront, Videoke, Cottages & Mini Store</p>
+                          <p><strong>Contact Person:</strong><br>
+                          Amada Partosa / 09283800874
+                          Location: Brgy. Jagnaya</p>
+                          </div>
+                      </div>
+                      </div>
+                      <div class="col px-3">
+                        <div class="card my-4 px-0 crd">
+                            <div class="card-header p-0 m-0 crd_in" style="background-image: linear-gradient(rgba(26, 73, 103, 0.58), rgba(26, 73, 103, 0)), url('images/for_use/images/cards/loksoon_br.webp');">
+                            <p class="py-5 fw-semibold text-center text-light">Loksoon<br>Beach Resort</p>
+                            </div>
+                            <div class="card-body lh-sm p_text">
+                            <p><strong>Services Offered:</strong><br>
+                            Beachfront, Videoke, Cottages & Mini Store</p>
+                            <p><strong>Contact Person:</strong><br>
+                            Amada Partosa / 09283800874
+                            Location: Brgy. Jagnaya</p>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="col px-3">
+                        <div class="card my-4 px-0 crd">
+                            <div class="card-header p-0 m-0 crd_in" style="background-image: linear-gradient(rgb(26, 73, 103), rgba(26, 73, 103, 0)), url('images/for_use/images/cards/del_rosario.webp');">
+                            <p class="py-5 fw-semibold text-center text-light">Del Rosario<br>Beach Resort</p>
+                            </div>
+                            <div class="card-body lh-sm p_text">
+                            <p><strong>Services Offered:</strong><br>
+                            Beachfront, Videoke, Cottages & Mini Store</p>
+                            <p><strong>Contact Person:</strong><br>
+                            Amada Partosa / 09283800874
+                            Location: Brgy. Jagnaya</p>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="col px-3">
+                        <div class="card my-4 px-0 crd">
+                            <div class="card-header p-0 m-0 crd_in" style="background-image: linear-gradient(rgb(26, 73, 103), rgba(26, 73, 103, 0)), url('images/for_use/images/cards/DJ.webp');">
+                            <p class="py-5 fw-semibold text-center text-light">Diane & Joy<br>Beach Resort</p>
+                            </div>
+                            <div class="card-body lh-sm p_text">
+                            <p><strong>Services Offered:</strong><br>
+                            Beachfront, Videoke, Cottages & Mini Store</p>
+                            <p><strong>Contact Person:</strong><br>
+                            Amada Partosa / 09283800874
+                            Location: Brgy. Jagnaya</p>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="col px-3">
+                          <div class="card my-4 px-0 crd">
+                              <div class="card-header p-0 m-0 crd_in" style="background-image: linear-gradient(rgb(26, 73, 103), rgba(26, 73, 103, 0)), url('images/for_use/images/cards/DJ.webp');">
+                              <p class="py-5 fw-semibold text-center text-light">Diane & Joy<br>Beach Resort</p>
+                              </div>
+                              <div class="card-body lh-sm p_text">
+                              <p><strong>Services Offered:</strong><br>
+                              Beachfront, Videoke, Cottages & Mini Store</p>
+                              <p><strong>Contact Person:</strong><br>
+                              Amada Partosa / 09283800874
+                              Location: Brgy. Jagnaya</p>
+                              </div>
+                          </div>
+                          </div>
+
         </div>
       </div>
     </section>
 
     <!------------------------------------------- second_B_section ---------------------------------------->
-    <section class="second_section" id="about">
-        <div class="container-fluid">
-          <div class="row row-cols-md-1 row-cols-1 row-cols-lg-2">
-              <div class="col-lg-3 col-md-12 col-sm-12 py-5 px-5 align-self-center bg-light">
-                  <h1 class="display-6 res">Beaches:</h1>
-                  <p class="lh-lg unw">Sink your toes into the soft, powdery sand of our pristine beaches. Feel the gentle ocean breeze, and witness the spectacular sunsets that paint the sky in vivid hues.</p>
-                  <div class="d-flex justify-content-start">
-                      <a class="btn_a" href="#about"><button class="btn_about mt-4" type="button">more</button></a>
-                  </div>
-              </div>
-              <div class="col-lg-9 col-md-12 col-sm-12 d-flex justify-content-center">
-                  <div class="row row-cols-lg-3 row-cols-md-2 row-cols-1 crd_main">
-                      <div class="col px-3">
-                      <div class="card my-4 px-0 crd">
-                          <div class="card-header p-0 m-0 crd_in" style="background-image: linear-gradient(rgba(26, 73, 103, 0.58), rgba(26, 73, 103, 0)), url('images/for_use/images/main.webp');">
-                          <p class="py-5 fw-semibold text-center text-light">Alog<br>Beach</p>
-                          </div>
-                          <div class="card-body lh-sm p_text">
-                          <p><strong>Services Offered:</strong><br>
-                          Beachfront, Videoke, Cottages & Mini Store</p>
-                          <p><strong>Contact Person:</strong><br>
-                          Amada Partosa / 09283800874
-                          Location: Brgy. Jagnaya</p>
+    <section class="sec_beaches pb-1">
+      <div>
+        <h1 class="display-4 fw-bold res text-center pt-5">Beaches:</h1>
+        <p class="lh-lg unw text-center"> Sink your toes into the soft, powdery sand of our pristine beaches. Feel the gentle ocean breeze, and witness the spectacular sunsets that paint the sky in vivid hues.</p>
+      </div>
+      <div class="container-fluid">
+          <div class="m_beaches row row-cols-1 row-cols-lg-2 row-cols-md-2">
+                    <div class="col px-3">
+                    <div class="card my-5 px-0 crd">
+                        <div class="card-header p-0 m-0 crd_in" style="background-image: linear-gradient(rgba(26, 73, 103, 0.58), rgba(26, 73, 103, 0)), url('images/for_use/images/cards/loksoon_br.webp');">
+                        <p class="py-5 fw-semibold text-center text-light">Loksoon<br>Beach Resort</p>
                         </div>
-                      </div>
-                      </div>
-                      <div class="col px-3">
-                      <div class="card my-4 px-0 crd">
-                          <div class="card-header p-0 m-0 crd_in" style="background-image: linear-gradient(rgb(26, 73, 103), rgba(26, 73, 103, 0)), url('images/for_use/images/yolanda.webp');">
-                          <p class="py-5 fw-semibold text-center text-light">Yolanda<br>Beach</p>
-                          </div>
-                          <div class="card-body lh-sm p_text">
-                          <p><strong>Services Offered:</strong><br>
-                          Beachfront, Videoke, Cottages & Mini Store</p>
-                          <p><strong>Contact Person:</strong><br>
-                          Amada Partosa / 09283800874
-                          Location: Brgy. Jagnaya</p>
+                        <div class="card-body lh-sm p_text">
+                        <p><strong>Services Offered:</strong><br>
+                        Beachfront, Videoke, Cottages & Mini Store</p>
+                        <p><strong>Contact Person:</strong><br>
+                        Amada Partosa / 09283800874
+                        Location: Brgy. Jagnaya</p>
                         </div>
-                      </div>
-                      </div>
-                      <div class="col-md-12 px-3">
-                      <div class="card my-4 px-0 crd">
-                          <div class="card-header p-0 m-0 crd_in" style="background-image: linear-gradient(rgb(26, 73, 103), rgba(26, 73, 103, 0)), url('images/for_use/images/cards/sam.webp');">
-                          <p class="py-5 fw-semibold text-center text-light">Sam<br>Beach Resort</p>
-                          </div>
-                          <div class="card-body lh-sm p_text">
-                          <p><strong>Services Offered:</strong><br>
-                          Beachfront, Videoke, Cottages & Mini Store</p>
-                          <p><strong>Contact Person:</strong><br>
-                          Amada Partosa / 09283800874
-                          Location: Brgy. Jagnaya</p>
+                    </div>
+                    </div>
+                    <div class="col px-3">
+                    <div class="card my-5 px-0 crd">
+                        <div class="card-header p-0 m-0 crd_in" style="background-image: linear-gradient(rgb(26, 73, 103), rgba(26, 73, 103, 0)), url('images/for_use/images/cards/del_rosario.webp');">
+                        <p class="py-5 fw-semibold text-center text-light">Del Rosario<br>Beach Resort</p>
                         </div>
-                      </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-        </div>
-      </section>
-
+                        <div class="card-body lh-sm p_text">
+                        <p><strong>Services Offered:</strong><br>
+                        Beachfront, Videoke, Cottages & Mini Store</p>
+                        <p><strong>Contact Person:</strong><br>
+                        Amada Partosa / 09283800874
+                        Location: Brgy. Jagnaya</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+      </div>
+    </section>
           <!------------------------------------------- second_C_section ---------------------------------------->
-    <section class="b_section">
-        <div class="container-fluid py-4" style="background-color: #194a67">
-            <div class="row d-flex">
+    <section class="b_section" style="background-color: #123243">
+      <div class="separator"><p class="glimp text-center fw-semibold text-light fs-3">FEATURED TOURIST ATTRACTION</p></div>
+        <div class="container-fluid py-4">
+            <div class="row row-cols-md-2 row-cols-1">
                 <div class="col-lg-8">
                     <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
                         <div class="carousel-indicators">
@@ -261,6 +305,69 @@
             </div>
         </div>
     </section>
+
+    <section>
+          <div class="container-fluid">
+              <div class="row pb-5 mx-3 d-flex justify-content-center">
+                  <div class="col in_div">
+                      <div class="card h_crd">
+                          <div class="card-body c_bod" style="background-image: url('images/for_use/images/bin.webp');">
+                              <p class="text-center text-light text-uppercase fw-semibold p_c">
+                                  Binabasalan Islet
+                              </p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col in_div">
+                      <div class="card h_crd">
+                          <div class="card-body c_bod" style="background-image: url('images/for_use/images/min.webp');">
+                              <p class="text-center text-light text-uppercase fw-semibold p_c">
+                                  Minamhay Sandbar
+                              </p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col in_div">
+                      <div class="card h_crd">
+                          <div class="card-body c_bod" style="background-image: url('images/for_use/images/loks.webp');">
+                              <p class="text-center text-light text-uppercase fw-semibold p_c">
+                                  Loksoon Cave & Tidal Pool
+                              </p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col in_div">
+                      <div class="card h_crd">
+                          <div class="card-body c_bod" style="background-image: url('images/for_use/images/alog.webp');">
+                              <p class="text-center text-light text-uppercase fw-semibold p_c">
+                                  Alog Cave & Alog Beach
+                              </p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col in_div">
+                      <div class="card h_crd">
+                          <div class="card-body c_bod" style="background-image: url('images/for_use/images/buk.webp');">
+                              <p class="text-center text-light text-uppercase fw-semibold p_c">
+                                  Heritage Stairs to Bukid Koykoyon
+                              </p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col in_div">
+                      <div class="card h_crd">
+                          <div class="card-body c_bod" style="background-image: url('images/for_use/images/bw.webp');">
+                              <p class="text-center text-light text-uppercase fw-semibold p_c">
+                                  Camanga Mangrove Boardwalk
+                              </p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+
           <!------------------------------------------- second_D_section ---------------------------------------->
     <section>
         <div class="container-fluid">
@@ -321,67 +428,7 @@
         </section>
 
         <!-------------------------------------------------------- F_section -->
-    <section class="sec_f" style="background-image: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.412)), url('images/for_use/images/buk.webp');">
-    <div class="separator"><p class="glimp fw-semibold">FEATURED TOURIST ATTRACTION</p></div>
-        <div class="container-fluid">
-            <div class="row pb-5 mx-3 d-flex justify-content-center">
-                <div class="col in_div">
-                    <div class="card h_crd">
-                        <div class="card-body c_bod" style="background-image: url('images/for_use/images/bin.webp');">
-                            <p class="text-center text-light text-uppercase fw-semibold p_c">
-                                Binabasalan Islet
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col in_div">
-                    <div class="card h_crd">
-                        <div class="card-body c_bod" style="background-image: url('images/for_use/images/min.webp');">
-                            <p class="text-center text-light text-uppercase fw-semibold p_c">
-                                Minamhay Sandbar
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col in_div">
-                    <div class="card h_crd">
-                        <div class="card-body c_bod" style="background-image: url('images/for_use/images/loks.webp');">
-                            <p class="text-center text-light text-uppercase fw-semibold p_c">
-                                Loksoon Cave & Tidal Pool
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col in_div">
-                    <div class="card h_crd">
-                        <div class="card-body c_bod" style="background-image: url('images/for_use/images/alog.webp');">
-                            <p class="text-center text-light text-uppercase fw-semibold p_c">
-                                Alog Cave & Alog Beach
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col in_div">
-                    <div class="card h_crd">
-                        <div class="card-body c_bod" style="background-image: url('images/for_use/images/buk.webp');">
-                            <p class="text-center text-light text-uppercase fw-semibold p_c">
-                                Heritage Stairs to Bukid Koykoyon
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col in_div">
-                    <div class="card h_crd">
-                        <div class="card-body c_bod" style="background-image: url('images/for_use/images/bw.webp');">
-                            <p class="text-center text-light text-uppercase fw-semibold p_c">
-                                Camanga Mangrove Boardwalk
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+
 
 
 

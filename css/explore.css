@@ -1,18 +1,44 @@
+#explore {
+  background-color: #fff;
+}
+
+.sec_beaches {
+  background-color: #bcdced;
+}
+
 .res {
     font-family: 'Dancing Script', cursive;
 }
 
-.unw {
-    font-size: .8em;
+.r_resorts {
+  padding: 0 4rem;
+}
+
+@media (max-width: 810px) {
+  .r_resorts {
+    padding: 0 1rem !important;
+  }
+}
+
+.m_beaches {
+  padding: 0 8rem;
+}
+
+@media (max-width: 1200px) {
+  .m_beaches {
+    padding: 0 1rem !important;
+  }
+}
+
+@media (max-width: 810px) {
+  .m_beaches {
+    padding: 0 .5rem !important;
+  }
 }
 
 .crd {
     /* width: 15rem; */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.crd_main {
-    /* gap: 2rem; */
 }
 
 .crd_in {
@@ -70,7 +96,7 @@
   .separator::after {
     content: '';
     flex: 1;
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid #ffffff;
   }
   
   .separator:not(:empty)::before {
@@ -82,9 +108,8 @@
   }
 
   .glimp {
-    /* font-family: 'Dancing Script', cursive; */
-    font-size: .8em;
-    margin: 3rem 0;
+    margin: 3rem 1rem;
+    letter-spacing: .4em;
   }
   /************ cont. */
 
