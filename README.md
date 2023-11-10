@@ -48,9 +48,10 @@
 ## Technologies and Version
 ```
 - HTML, CSS, Bootstrap 5.3
-- Google Fonts
-- AOS
-- UIVERSE.IO
+- Google Fonts - fonts
+- AOS - effects
+- Photoshop
+- mdigi.tools - color-shades #bcdced, #3797c8, #123243
 ```
 
 ## Contributors:
