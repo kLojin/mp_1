@@ -240,6 +240,15 @@ hr {
   font-size: .8em;
 }
 
+.ftxt {
+  color: #fff;
+  transition: .35s;
+}
+
+.ftxt:hover {
+  color: #3797c8;
+}
+
   .pp {
     text-decoration: none;
     color: #0d213c;
