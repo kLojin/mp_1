@@ -1,0 +1,41 @@
+.disz {
+  padding-top: 10rem;
+  padding-bottom: 1rem;
+}
+
+@media (max-width: 363px) {
+  .disz {
+    padding-top: 12rem;
+  }
+}
+
+.esc {
+  font-size: .8em;
+}
+
+.frm_n {
+  background-color: #bcdced;
+}
+
+.nest_r {
+  background-position: center;
+  background-size: cover;
+}
+
+.nes_img {
+  border-radius: 50% 50%;
+}
+
+.crd_nes {
+  border-radius: 50% 50% 0% 0%;
+}
+
+.img_fts {
+  height: 5rem;
+}
+
+@media (max-width:810px) {
+  .img_fts {
+    height: 3rem;
+  }
+}

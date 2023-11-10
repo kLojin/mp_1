@@ -31,3 +31,14 @@
 hr {
   border-top: .5em dashed #123243;
 }
+
+.f_sect {
+  margin-top: -3rem;
+  padding: 0;
+}
+
+@media (max-width: 428px) {
+  .ul_z {
+    font-size: .8em;
+  }
+}
