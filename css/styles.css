@@ -215,6 +215,18 @@ hr {
     margin: 0 !important;
   }
 }
+
+@media (max-width: 428px) {
+  .fm {
+    text-align: center;
+  }
+}
+
+@media (max-width: 428px) {
+  .fm_img {
+    justify-content: center;
+  }
+}
   
 .img_ft {
   height: 3rem;

@@ -1,9 +1,18 @@
-#explore {
-  background-color: #fff;
+.a_j2 {
+  font-family: 'Dancing Script', cursive;
+  text-shadow: 0 0 10px #070706d2, 0 0 20px #070706d2, 0 0 30px #070706d2;
+}
+
+.nes2 {
+text-shadow: 0 0 10px #070706d2, 0 0 20px #070706d2, 0 0 30px #070706d2;
+}
+
+.exp {
+  background-color: #bcdced;
 }
 
 .sec_beaches {
-  background-color: #bcdced;
+  background-color: #fff;
 }
 
 .res {
