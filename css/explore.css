@@ -45,6 +45,12 @@ text-shadow: 0 0 10px #070706d2, 0 0 20px #070706d2, 0 0 30px #070706d2;
   }
 }
 
+@media (max-width: 428px) {
+  .unw {
+    text-align: left !important;
+  }
+}
+
 .crd {
     /* width: 15rem; */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -73,8 +79,13 @@ text-shadow: 0 0 10px #070706d2, 0 0 20px #070706d2, 0 0 30px #070706d2;
 /******************************************************* carousel */
 
 .car_im {
-    height: 25rem;
     border-radius: .5rem;
+}
+
+@media (min-width: 1200px) {
+  .car_im {
+    height: 25rem;
+  }
 }
 
 .pgradient {
@@ -159,4 +170,14 @@ text-shadow: 0 0 10px #070706d2, 0 0 20px #070706d2, 0 0 30px #070706d2;
   .img_fet {
     height: 250px;
     width: 300px;
+  }
+
+  .rw_vidz {
+    margin: 0 5rem;
+  }
+
+  @media (max-width: 1250px) {
+    .rw_vidz {
+      margin: 0;
+    }
   }
